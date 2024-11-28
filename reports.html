@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FraudGuard - Reports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">FraudGuard</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="transactions.html">Transactions</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                    <li><a href="reports.html" class="active">Reports</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="reports">
+            <div class="container">
+                <h2>Generate and View Reports</h2>
+                <button onclick="generateReport()">Generate Report</button>
+                <div id="report-output">
+                    <!-- Report will be displayed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <a href="https://npci.corover.mobi/" target="_blank">
+        <div id="chatbot-icon">
+            <!-- <h2>FG</h2> -->
+            <img src="https://cdn-icons-png.flaticon.com/128/5013/5013222.png" alt="Chatbot">
+        </div>
+    </a>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FraudGuard. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
